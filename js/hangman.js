@@ -56,7 +56,7 @@ function handleGuess(chosenLetter) {
     else {
         updateMistakes();
         updatePic();
-        hint(); //TODO
+        // hint(); TODO
         isGameLost();
     }
 }
