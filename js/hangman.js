@@ -109,6 +109,7 @@ function guessedWord() {
 
 function reset() {
     mistakes = 0;
+    document.getElementById('Mistakes').innerHTML = mistakes;
     guessed = [];
     document.getElementById('hangmanPic').src = './images/0.jpg';
     run();
